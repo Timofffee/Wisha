@@ -8,9 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Reference",
+"class": "WishaScriptParser",
+"language": "GDScript",
+"path": "res://Core/WishaScript/parser.gd"
+}, {
+"base": "Reference",
+"class": "WishaScriptTokenizer",
+"language": "GDScript",
+"path": "res://Core/WishaScript/tokenizer.gd"
+} ]
 _global_script_class_icons={
-
+"WishaScriptParser": "",
+"WishaScriptTokenizer": ""
 }
 
 [application]
